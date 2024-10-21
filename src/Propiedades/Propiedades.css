@@ -1,0 +1,47 @@
+.propiedades-contenedor {
+
+    display: grid;
+    justify-items: center;
+    align-content: center;
+
+    grid-template-columns: 1fr;
+
+
+}
+
+
+.propiedad-card {
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+
+    grid-template-columns: 1fr 800px;
+    text-align: start;
+    margin-bottom: 100px;
+
+
+}
+
+
+.carousel {
+
+    width: 500px;
+    height: 300px;
+
+    box-shadow: 0px 0px 12px black;
+}
+
+
+
+.propiedad-imagen {
+
+    width: 500px;
+    height: 300px;
+
+
+    object-fit:fill;
+
+
+}
